@@ -48,7 +48,7 @@ const AboutPage = () => {
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-            "Building web experiences that are both beautiful and functional is my passion."
+              &quot;Building web experiences that are both beautiful and functional is my passion.&quot;
             </span>
             {/* BIOGRAPHY SIGN IMAGE */}
           <div className="self-end">
@@ -87,7 +87,7 @@ const AboutPage = () => {
           </div>
           {/* SKILLS CONTAINER */}
           <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
-            {/* SKILL TITLE */}
+          {/* SKILL TITLE */}
             <motion.h1
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}

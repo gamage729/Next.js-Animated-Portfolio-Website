@@ -145,7 +145,7 @@ const ContactPage = () => {
               variants={itemVariants}
             >
               <h2 className="text-lg md:text-xl font-light text-gray-700 max-w-sm mx-auto">
-                Let's create something amazing together
+                Let&apos;s create something amazing together
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-red-500 mx-auto rounded-full"></div>
             </motion.div>
@@ -181,7 +181,9 @@ const ContactPage = () => {
               {/* Form Header */}
               <div className="bg-gradient-to-r from-blue-500/10 to-red-500/10 p-4 border-b border-white/10">
                 <h3 className="text-lg font-bold text-gray-800 mb-1">Get In Touch</h3>
-                <p className="text-gray-600 text-sm">I'd love to hear from you. Send me a message!</p>
+                <p className="text-gray-600 text-sm">
+                  I&apos;d love to hear from you. Send me a message!
+                </p>
               </div>
 
               {/* Form */}
